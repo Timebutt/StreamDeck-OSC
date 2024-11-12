@@ -21,9 +21,7 @@ The plugin will now be available in the `dist` folder as `com.nils-tijtgat.osc.s
 
 ### General
 
-Enter IP and Port of your OSC device if they are different than the default values (to change the default values, see the appsettings.json section below), enter the message you want to send, for example "/hardwareInput/1/volume" which depends on the system you're using. As said, every device or software uses a different structure.
-You can send string, an integer number and a float number as argument with the message, if it's needed. You can send all, some or none. Check the corresponding checkboxes to have the values send as arguments.
-In OSC there are a lot more options that can be required as arguments, including multiple strings, multiple ints, big ints and blobs - in varying order. I did not implement that all.
+Configuration in the UI is straightforward and should be self-explanatory. The value property is checked by the plugin so the correct type (`integer`, `float` or `string`) is selected when sending the OSC message. Alternatively, you can configure the plugin directly by changing the `appsettings.json` file.
 
 ## appsettings.json
 

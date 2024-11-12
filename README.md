@@ -1,7 +1,5 @@
 # Send OSC Commands with your StreamDeck
 
-## What Is This (and what does it do?)
-
 This [Elgato Stream Deck][Stream Deck] plugin allows you to send sends low-level basic [OpenSoundControl][https://opensoundcontrol.stanford.edu] messages. Different from the other available plugins, this plugin runs on both Windows as well as MacOS.
 
 ## Installation
@@ -29,8 +27,7 @@ In OSC there are a lot more options that can be required as arguments, including
 
 ## appsettings.json
 
-To configure default values, edit the configuration file
-%APPDATA%\Elgato\StreamDeck\Plugins\de.shells.osc.sdPlugin
+To configure default values, edit the configuration file `%APPDATA%\Elgato\StreamDeck\Plugins\de.nils-tijtgat.osc.sdPlugin` (Windows) or `/Users/[your_username]/Library/Application Support/com.elgato.StreamDeck/Plugins/com.nils-tijtgat.osc.sdPlugin` (MacOS):
 
 ```json
 {
@@ -43,7 +40,7 @@ To configure default values, edit the configuration file
 }
 ```
 
-# I have an issue or miss a feature?
+# Issues or feature requests
 
 You can submit an issue or request a feature with [GitHub issues].
 

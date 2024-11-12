@@ -1,0 +1,47 @@
+{
+	"Name": "osc",
+	"Version": "1.0.0.0",
+	"Author": "Nils Tijtgat",
+	"Actions": [
+		{
+			"Name": "Send OSC Command",
+			"UUID": "com.nils-tijtgat.osc.send-osc-command",
+			"Icon": "imgs/actions/send-osc-command/icon",
+			"Tooltip": "Send an OSC command",
+			"PropertyInspectorPath": "ui/send-osc-command.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/send-osc-command/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "osc",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "A plugin that can send simple OSC commands",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.4"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.15"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.nils-tijtgat.osc"
+}

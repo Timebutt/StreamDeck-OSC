@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head lang="en">
+        <title>Send OSC Command Settings</title>
+        <meta charset="utf-8" />
+        <script src="https://sdpi-components.dev/releases/v3/sdpi-components.js"></script>
+    </head>
+
+    <body>
+        <!-- Learn more about property inspector components at https://sdpi-components.dev/docs/components -->
+        <sdpi-item label="IP Address">
+            <sdpi-textfield default="127.0.0.1" setting="ipAddress" required></sdpi-textfield>
+        </sdpi-item>
+
+        <sdpi-item label="Port">
+            <sdpi-textfield setting="port" required></sdpi-textfield>
+        </sdpi-item>
+
+        <sdpi-item label="Command">
+            <sdpi-textfield setting="command" required></sdpi-textfield>
+        </sdpi-item>
+
+        <sdpi-item label="Value">
+            <sdpi-textfield setting="value" required></sdpi-textfield>
+        </sdpi-item>
+    </body>
+</html>
